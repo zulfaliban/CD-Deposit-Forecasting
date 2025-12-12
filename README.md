@@ -4,6 +4,7 @@ This project forecasts U.S. small-denomination time deposits using multiple time
 Data is pulled directly from FRED using the fredr API.
 
 Models Implemented
+
 	•	ETS
 	
 	•	ARIMA
@@ -17,18 +18,29 @@ Models Implemented
 	•	Ensemble (weighted combination)
 
 Methods & Features
+
 	•	Guerrero Box-Cox transformation
+	
 	•	KPSS stationarity testing
+	
 	•	Rolling averages & lag features
+	
 	•	Calendar variables (year, month)
+	
 	•	Harmonic seasonality terms
+	
 	•	Train/test split with forecasting horizon 2022–2025
+	
 	•	Volatility modeling (GARCH)
 
 Files
+
 	•	Forecasting-U.S.-CD-Deposits.qmd — full analysis and code
+	
 	•	Forecasting-U.S.-CD-Deposits.pdf — final written report
+	
 	•	95%_ARIMAX_interval.png — example forecast visualization
+	
 	•	references.bib — citation file
 
 Key Insight

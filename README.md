@@ -5,10 +5,15 @@ Data is pulled directly from FRED using the fredr API.
 
 Models Implemented
 	•	ETS
+	
 	•	ARIMA
+	
 	•	ARIMAX (Fed Funds Rate as x-reg)
+	
 	•	XGBoost
+	
 	•	Multilayer Perceptron (MLP Neural Network)
+	
 	•	Ensemble (weighted combination)
 
 Methods & Features
